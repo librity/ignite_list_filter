@@ -1,21 +1,21 @@
 # ListFilter
 
-**TODO: Add description**
+A simple module that count all the odd numbers in a string list.
 
-## Installation
+## Commands
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `list_filter` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:list_filter, "~> 0.1.0"}
-  ]
-end
+```bash
+$ mix test
+$ iex -S mix
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/list_filter](https://hexdocs.pm/list_filter).
+```elixir
+> ListFilter.call(["1", "3", "6", "43", "banana", "6", "abc"])
+> 3
+```
 
+## Resources
+
+- https://stackoverflow.com/questions/22576658/convert-elixir-string-to-integer-or-float
+- https://hexdocs.pm/elixir/String.html
+- https://hexdocs.pm/elixir/Enum.html#filter/2
